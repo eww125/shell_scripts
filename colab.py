@@ -7,7 +7,8 @@ from docx import Document
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from datetime import date
 from jinja2.utils import Markup
-import os, re, ast, glob, numpy, gspread, PyPDF2, jinja2, requests, datetime
+import os
+import re, ast, glob, numpy, gspread, PyPDF2, jinja2, requests, datetime
 from boxsdk import OAuth2, Client
 from PyPDF2 import PdfFileReader
 from os.path import expanduser
